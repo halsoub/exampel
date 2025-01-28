@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import 'controller/name_swap_controller.dart';
 import 'screen/swapname.dart';
 
-
 void main() {
   runApp(
     ChangeNotifierProvider(
@@ -26,7 +25,7 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SwapName(),
+      home: SimpleLayoutPage(),
       debugShowCheckedModeBanner: false,
     );
   }
